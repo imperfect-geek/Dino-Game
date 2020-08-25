@@ -6,7 +6,6 @@ end = new Audio("sound/end game.mp3")
 
 document.onkeydown = function (e) {
 
-    console.log(e.keyCode);
     if (e.keyCode == 38 || e.keyCode == 87 || e.keyCode == 13 || e.keyCode == 32) {
         dino = document.querySelector(".dino");
         dino.classList.add("animateDino");
